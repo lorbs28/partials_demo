@@ -2,14 +2,13 @@
 <html>
 <head>
   <title>PartialsDemo</title>
-  <%= stylesheet_link_tag    "demo" %>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div id="container">
-<div id="content">
+
 <%= yield %>
-</div>
-</div>
+
 </body>
 </html>
